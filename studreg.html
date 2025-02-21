@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="studreg.css"> <!-- External CSS -->
+</head>
+<body>
+    <div class="form-container">
+        <h2>Create an Account</h2>
+        <form id="registrationForm">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+            <small class="error-message" id="usernameError"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <small class="error-message" id="emailError"></small>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+            <small class="error-message" id="phoneError"></small>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password">
+            <small class="error-message" id="passwordError"></small>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password">
+            <small class="error-message" id="confirmPasswordError"></small>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="studreg.js"></script> <!-- External JS -->
+</body>
+</html>
