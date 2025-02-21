@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #0f1923;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffa600;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#output {
+    font-weight: bold;
+    color: #ffa600;
+}
+body {
+    background-image: url('valt.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Adjust text color for better visibility */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Interactive Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="Dom.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Valorant: Choose Your Agent</h1>
+        
+        <!-- Change text using JavaScript -->
+        <button onclick="updateTitle()">Update Title</button>
+
+        <!-- Change CSS properties -->
+        <button onclick="toggleTheme()">Toggle Theme</button>
+
+        <!-- Change Image Source -->
+        <img id="agentImage" src="val.jpg" width="250" height="150" alt="Valorant Agent">
+        <button onclick="switchAgent()">Switch Agent</button>
+
+        <!-- Dynamic text addition -->
+        <button onclick="appendText()">Add Description</button>
+        <p id="description"></p>
+
+        <!-- Remove Element -->
+        <button onclick="removeElement()">Remove Element</button>
+        <p id="removable">This text can be removed.</p>
+
+        <!-- jQuery Manipulation -->
+        <button id="btnChange">Modify Button (jQuery)</button>
+
+        <!-- Form Submission -->
+        <form id="agentForm">
+            <input type="text" id="agentName" placeholder="Enter Agent Name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="output"></p>
+
+        <!-- Add Attribute with jQuery -->
+        <button id="addAlt">Set Alt Text</button>
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
